@@ -1,7 +1,7 @@
 body{ width:320px; background:#FFF; font-family:Arial, Helvetica, sans-serif;}
 a{ text-decoration:none;}
 p{color:#000; font-family:"Roboto Light";}
-.main{ float:left; width:640px; height:auto; display:block;}
+
 
 /*=======================Home===========================*/
 
@@ -139,13 +139,21 @@ input[type=radio]:checked + label:before {
 	font-family:"Roboto Medium";}
 	.form ul li .submit { border:none; background:#fe7405; color:#fff; font-size: 12px;
 	font-family:"Roboto Medium";}
-	
-.nav{float:left; width:320px; height:52px; background:url(../images/footer_bg_03.png) repeat-x top left; position:fixed; left:0; bottom:0;}
+
+.footer{
+width:320px;
+height:52px;
+left:0;
+bottom:0;
+position:fixed;
+float:left;
+}	
+.nav{float:left; width:320px; height:52px; background:url(../images/footer_bg_03.png); }
 .nav ul{ float:left; width:320px; list-style:none; margin:0px; padding:0px;}
-.nav ul li{ float:left; width:auto; height:42px; padding-top:10px; margin:0px px 0px 0px;}
-.nav ul li:hover{ background:url(../images/footer_hover_03.png) no-repeat; background-size:100% 100%;}
-.nav ul li a{margin:0px 18px 0px 7px; text-align:center;}
-.nav ul li img{ width:82%; height:87%; }
+.nav li{ float:left; width:auto; height:42px; padding-top:10px;}
+.nav li:hover{ background:url(../images/footer_hover_03.png) no-repeat; background-size:100% 100%;}
+.nav a{margin:0px 18px 0px 7px; text-align:center;}
+.nav img{ margin-top:-3px;}
 
 
 .home_header{ float:left; width:100%; height:95px; text-align:center; margin-left: -8px; background:url(../images/header_line_07.png) repeat-x bottom left;}
